@@ -2,9 +2,7 @@
  *  AngularJS directives for Google Maps
  *  git: https://github.com/angular-ui/angular-google-maps.git
  */
-;
-(function( window, angular, _, undefined ){
-  'use strict';
+import _ from 'lodash';
 /*
 !
 The MIT License
@@ -14163,4 +14161,3 @@ angular.module('uiGmapgoogle-maps.extensions')
     })
   };
 }]);
-}( window, angular, _));
